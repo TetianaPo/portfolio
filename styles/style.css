@@ -1,5 +1,6 @@
 :root {
   --branding-color: #3e8f7d;
+  --second-branding-color: #F5285C;
   --background-color: #1c1c1c;
   --hadding-font-family: "Playfair Display", serif;
   --default-font-family: "Poppins", sans-serif;
@@ -34,4 +35,12 @@ h3 {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+
+.fa-t  {
+    color: var(--branding-color);
+
+}
+.fa-a {
+    color: var(--second-branding-color);
 }
