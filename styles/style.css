@@ -78,8 +78,18 @@ p {
   color: white;
   padding-bottom: 270px;
 }
+.my-name {
+  color: var(--branding-color);
+}
 .nav-link {
   color: var(--text-color);
+}
+.tanya {
+  border-radius: 4px;
+  border: 2px solid var(--branding-color);
+}
+.ta {
+  color: var(--second-branding-color);
 }
 .navbar {
   border-right: 0.5px solid white;
