@@ -10,6 +10,7 @@
 body {
   background: var(--background-color);
   padding: 100px 20px;
+
   font-family: var(--default-font-family);
   width: 90%;
 }
@@ -32,6 +33,10 @@ h3 {
   font-family: var(--default-font-family);
   font-size: 20px;
   font-weight: normal;
+}
+h4 {
+  color: white;
+  font-size: 24px;
 }
 h6 {
   color: var(--text-color);
@@ -97,20 +102,32 @@ p {
   margin-right: 0px;
   padding-right: 0px;
 }
-.about-section {
+.content-container {
   padding: 10px;
 }
-.about-section h1 {
-  font-size: 44px;
+.content-container h1 {
+  font-size: 34px;
   line-height: 1;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: var(--default-font-family);
 }
-.about-section-content {
-  margin: 30px;
+.content {
+  margin: 11px;
+}
+.content p {
+  font-size: 14px;
+  margin: 0;
+}
+
+.content h3 {
+  font-size: 18px;
+  font-family: var(--default-font-family);
+  color: var(--branding-color);
+  line-height: 1.5;
+  margin: 20px 0 0;
 }
 @media (max-width: 960px) {
   h1 {
@@ -123,7 +140,7 @@ p {
   body {
     padding: 80px 20px;
   }
-  .about-section {
+  .content {
     text-align: center;
     padding: 0;
   }
