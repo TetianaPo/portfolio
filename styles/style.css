@@ -113,6 +113,9 @@ footer .social-links a:hover {
   line-height: 27px;
   padding: 15px 30px;
 }
+.btn-branding:hover {
+  color: var(--second-branding-color);
+}
 .logo {
   color: white;
   padding-bottom: 270px;
@@ -136,6 +139,12 @@ footer .social-links a:hover {
   margin-right: 0px;
   padding-right: 0px;
 }
+.navbar a:hover {
+  color: var(--branding-color);
+}
+.active {
+  color: var(--second-branding-color);
+}
 .content-container {
   padding: 10px;
 }
@@ -149,13 +158,21 @@ footer .social-links a:hover {
   font-family: var(--default-font-family);
 }
 .content {
-  margin: 11px;
+  margin: 10px;
 }
 .content p {
   font-size: 14px;
   margin: 0;
 }
-
+.codedBy {
+  font-size: 10px;
+}
+.conactInfo a {
+  color: white;
+}
+.conactInfo a:hover {
+  color: var(--second-branding-color);
+}
 .content h3 {
   font-size: 18px;
   font-family: var(--default-font-family);
@@ -185,5 +202,8 @@ footer .social-links a:hover {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .contactInfo {
+    font-size: smaller;
   }
 } ;
